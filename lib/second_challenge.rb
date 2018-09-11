@@ -9,7 +9,7 @@ def second_challenge
   food_items = []
 
   groceries.each do |categories, food|
-    categories.values
+    categories.values()
   end
 
   return food_items
